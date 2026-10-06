@@ -8,4 +8,12 @@ def calculate_covariance_matrix(vectors) -> torch.Tensor:
     """
     v_t = torch.as_tensor(vectors, dtype=torch.float)
     # Your implementation here
-    return torch.cov(v_t)
+    v_mean = torch.mean(v_t, dim=1, keepdim=True)
+    v_diff = v_t - v_mean
+    num = v_t.shape[1]
+    if num > 1:
+        cov_matrix = (v_diff @ v_diff.T) / (num - 1)
+    else:
+        cov_matrix = torch.zeros((v_t.shape[0], v_t.shape[0]))
+    
+    return cov_matrix
