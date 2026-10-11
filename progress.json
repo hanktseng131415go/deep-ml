@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:29:30.786Z",
+  "generated_at": "2026-10-11T10:14:57.220Z",
   "items": {
     "problem:10": {
       "kind": "problem",
@@ -65,6 +65,19 @@
       "last_pushed_at": "2026-10-09T09:29:30.003Z",
       "language": "python",
       "lines": 34
+    },
+    "problem:218": {
+      "kind": "problem",
+      "id": "218",
+      "title": "Compute the Hessian Matrix",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/218",
+      "path": "problems/0218-compute-the-hessian-matrix",
+      "first_solved_at": "2026-10-11T10:14:56.275Z",
+      "last_pushed_at": "2026-10-11T10:14:56.275Z",
+      "language": "python",
+      "lines": 47
     }
   }
 }
