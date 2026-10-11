@@ -1,4 +1,4 @@
-import numpy as np
+import torch
 
 def gradient_direction_magnitude(gradient: list) -> dict:
 	"""
@@ -9,15 +9,16 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 	
 	Returns:
 		Dictionary containing:
-		- magnitude: The L2 norm of the gradient
-		- direction: Unit vector in direction of steepest ascent
-		- descent_direction: Unit vector in direction of steepest descent
+		- magnitude: The L2 norm of the gradient (float)
+		- direction: Unit vector (torch.Tensor) in direction of steepest ascent
+		- descent_direction: Unit vector (torch.Tensor) in direction of steepest descent
 	"""
 	# Your code here
 	out = {}
-	gradient = np.array(gradient) 
-	magnitude = sum(gradient**2)**0.5
-	direction = gradient / magnitude if magnitude > 0. else np.zeros(gradient.shape)
+	
+	grad = torch.tensor(gradient)
+	magnitude = grad.norm()
+	direction = grad / magnitude if magnitude > 0 else torch.zeros(grad.shape)
 	descent_direction = -direction
 
 	out['magnitude'] = magnitude
