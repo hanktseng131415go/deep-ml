@@ -1,26 +1,32 @@
-import torch
-import torch.nn.functional as F
+import math
 
-def cross_entropy_derivative(logits: torch.Tensor, target: int) -> torch.Tensor:
-    """
-    Compute the derivative of cross-entropy loss with respect to logits.
-    
-    Args:
-        logits: Raw model outputs tensor
-        target: Index of the true class
-        
-    Returns:
-        Gradient tensor
-    """
-    x = logits.clone().requires_grad_(True)
-    loss = F.cross_entropy(x.unsqueeze(0),
-                            torch.tensor([target]))
-    loss.backward()
-    return x.grad
+def cross_entropy_derivative(logits: list[float], target: int) -> list[float]:
+	"""
+	Compute the derivative of cross-entropy loss with respect to logits.
+	
+	Args:
+		logits: Raw model outputs (before softmax)
+		target: Index of the true class (0-indexed)
+		
+	Returns:
+		Gradient vector where gradient[i] = dL/d(logits[i])
+	"""
 
-    logits = logits.clone().requires_grad_(True)
-    loss = F.cross_entropy(logits.unsqueeze(0),
-                            torch.tensor([target]))
-    loss.backward()
+	max_x = max(logits)
+	soft_x = [math.exp(x - max_x) for x in logits]
+	sum_x = sum(soft_x)
+	prob = [x/sum_x for x in soft_x]
 
-    return logits.grad
+	grad = prob.copy()
+	grad[target] -= 1.0
+	return grad
+
+	max_x = max(logits)
+	x = [math.exp(i - max_x) for i in logits]
+	sum_x = sum(x)
+	prob = [i/sum_x for i in x]
+
+	grad = prob.copy()
+	grad[target] -= 1.0
+
+	return grad
