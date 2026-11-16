@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="429" viewBox="0 0 880 429" role="img" aria-label="Deep-ML coverage: 17 of 2287 problems solved">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="429" viewBox="0 0 880 429" role="img" aria-label="Deep-ML coverage: 18 of 2320 problems solved">
 <style>
   .bg{fill:#ffffff}.tx{fill:#18181b}.dim{fill:#71717a}.none{fill:#e4e4e7}
   .e{fill:#15a349}.m{fill:#d08700}.h{fill:#dc2626}.u{fill:#a1a1aa}
@@ -9,7 +9,7 @@
 </style>
 <rect width="880" height="429" class="bg"/>
 <text x="20" y="24" class="tx" font-size="11" font-family="ui-monospace,monospace">Deep Learning</text>
-<text x="860" y="24" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">8/485</text>
+<text x="860" y="24" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">8/496</text>
 <rect x="20" y="32" width="7" height="7" rx="1.5" class="e"/>
 <rect x="29" y="32" width="7" height="7" rx="1.5" class="none"/>
 <rect x="38" y="32" width="7" height="7" rx="1.5" class="e"/>
@@ -495,8 +495,19 @@
 <rect x="173" y="77" width="7" height="7" rx="1.5" class="none"/>
 <rect x="182" y="77" width="7" height="7" rx="1.5" class="none"/>
 <rect x="191" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="200" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="209" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="218" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="227" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="236" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="245" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="254" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="263" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="272" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="281" y="77" width="7" height="7" rx="1.5" class="none"/>
+<rect x="290" y="77" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="102" class="tx" font-size="11" font-family="ui-monospace,monospace">Machine Learning</text>
-<text x="860" y="102" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">1/411</text>
+<text x="860" y="102" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">2/412</text>
 <rect x="20" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="29" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="38" y="110" width="7" height="7" rx="1.5" class="none"/>
@@ -585,7 +596,7 @@
 <rect x="785" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="794" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="803" y="110" width="7" height="7" rx="1.5" class="none"/>
-<rect x="812" y="110" width="7" height="7" rx="1.5" class="none"/>
+<rect x="812" y="110" width="7" height="7" rx="1.5" class="m"/>
 <rect x="821" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="830" y="110" width="7" height="7" rx="1.5" class="none"/>
 <rect x="839" y="110" width="7" height="7" rx="1.5" class="none"/>
@@ -908,8 +919,9 @@
 <rect x="344" y="146" width="7" height="7" rx="1.5" class="none"/>
 <rect x="353" y="146" width="7" height="7" rx="1.5" class="none"/>
 <rect x="362" y="146" width="7" height="7" rx="1.5" class="none"/>
+<rect x="371" y="146" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="171" class="tx" font-size="11" font-family="ui-monospace,monospace">Statistics</text>
-<text x="860" y="171" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">1/89</text>
+<text x="860" y="171" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">1/90</text>
 <rect x="20" y="179" width="7" height="7" rx="1.5" class="e"/>
 <rect x="29" y="179" width="7" height="7" rx="1.5" class="none"/>
 <rect x="38" y="179" width="7" height="7" rx="1.5" class="none"/>
@@ -999,6 +1011,7 @@
 <rect x="794" y="179" width="7" height="7" rx="1.5" class="none"/>
 <rect x="803" y="179" width="7" height="7" rx="1.5" class="none"/>
 <rect x="812" y="179" width="7" height="7" rx="1.5" class="none"/>
+<rect x="821" y="179" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="204" class="tx" font-size="11" font-family="ui-monospace,monospace">Linear Algebra</text>
 <text x="860" y="204" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">1/81</text>
 <rect x="20" y="212" width="7" height="7" rx="1.5" class="none"/>
@@ -1335,8 +1348,8 @@
 <rect x="578" y="263" width="7" height="7" rx="1.5" class="none"/>
 <rect x="587" y="263" width="7" height="7" rx="1.5" class="none"/>
 <rect x="596" y="263" width="7" height="7" rx="1.5" class="none"/>
-<text x="20" y="288" class="tx" font-size="11" font-family="ui-monospace,monospace">Algorithms</text>
-<text x="860" y="288" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/113</text>
+<text x="20" y="288" class="tx" font-size="11" font-family="ui-monospace,monospace">Pytorch</text>
+<text x="860" y="288" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/116</text>
 <rect x="20" y="296" width="7" height="7" rx="1.5" class="none"/>
 <rect x="29" y="296" width="7" height="7" rx="1.5" class="none"/>
 <rect x="38" y="296" width="7" height="7" rx="1.5" class="none"/>
@@ -1450,7 +1463,10 @@
 <rect x="173" y="305" width="7" height="7" rx="1.5" class="none"/>
 <rect x="182" y="305" width="7" height="7" rx="1.5" class="none"/>
 <rect x="191" y="305" width="7" height="7" rx="1.5" class="none"/>
-<text x="20" y="330" class="tx" font-size="11" font-family="ui-monospace,monospace">Pytorch</text>
+<rect x="200" y="305" width="7" height="7" rx="1.5" class="none"/>
+<rect x="209" y="305" width="7" height="7" rx="1.5" class="none"/>
+<rect x="218" y="305" width="7" height="7" rx="1.5" class="none"/>
+<text x="20" y="330" class="tx" font-size="11" font-family="ui-monospace,monospace">Algorithms</text>
 <text x="860" y="330" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/113</text>
 <rect x="20" y="338" width="7" height="7" rx="1.5" class="none"/>
 <rect x="29" y="338" width="7" height="7" rx="1.5" class="none"/>
@@ -1668,5 +1684,5 @@
 <rect x="65" y="389" width="7" height="7" rx="1.5" class="none"/>
 <rect x="74" y="389" width="7" height="7" rx="1.5" class="none"/>
 <rect x="83" y="389" width="7" height="7" rx="1.5" class="none"/>
-<text x="20" y="420" class="dim" font-size="10.5" font-family="ui-monospace,monospace">17 of 2287 problems solved on Deep-ML  ·  top 8 categories shown</text>
+<text x="20" y="420" class="dim" font-size="10.5" font-family="ui-monospace,monospace">18 of 2320 problems solved on Deep-ML  ·  top 8 categories shown</text>
 </svg>
